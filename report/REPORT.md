@@ -109,7 +109,7 @@ Chạy `ChunkingStrategyComparator().compare()` trên 2-3 tài liệu:
 | Thành viên | Strategy | Retrieval Score (/10) | Điểm mạnh | Điểm yếu |
 |-----------|----------|----------------------|-----------|----------|
 | Tôi | Recursive | 7.5 | Ngữ cảnh liền mạch | Chunk hơi lớn |
-| Chi | Recursive | 8 | Độ chính xác cao | Mất thông tin liên kết |
+| Trang |FixedSizeChunker |8/10 |- Giữ được context giữa các chunk nhờ overlap <br> - Cải thiện độ chính xác retrieval so với không overlap | - Tăng số lượng chunk → tốn tài nguyên hơn <br> - Có thể lặp lại thông tin |
 | Nghĩa | Keyword chunk | 7.0 | Tốc độ nhanh | Cắt vụn thông tin |
 
 **Strategy nào tốt nhất cho domain này? Tại sao?**
