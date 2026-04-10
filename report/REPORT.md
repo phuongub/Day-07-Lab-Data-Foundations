@@ -110,7 +110,7 @@ Chạy `ChunkingStrategyComparator().compare()` trên 2-3 tài liệu:
 |-----------|----------|----------------------|-----------|----------|
 | Tôi | Recursive | 7.5 | Ngữ cảnh liền mạch | Chunk hơi lớn |
 | Chi | Sentence-Based | 8.5 | Độ chính xác cao | Mất thông tin liên kết |
-| Mạnh | Fixed-Size | 7.0 | Tốc độ nhanh | Cắt vụn thông tin |
+| Nghĩa | Keyword chunk | 7.0 | Tốc độ nhanh | Cắt vụn thông tin |
 
 **Strategy nào tốt nhất cho domain này? Tại sao?**
 > *Viết 2-3 câu:*
