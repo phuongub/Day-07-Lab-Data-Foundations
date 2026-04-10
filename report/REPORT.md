@@ -109,7 +109,7 @@ Chạy `ChunkingStrategyComparator().compare()` trên 2-3 tài liệu:
 | Thành viên | Strategy | Retrieval Score (/10) | Điểm mạnh | Điểm yếu |
 |-----------|----------|----------------------|-----------|----------|
 | Tôi | Recursive | 7.5 | Ngữ cảnh liền mạch | Chunk hơi lớn |
-| Chi | Sentence-Based | 8.5 | Độ chính xác cao | Mất thông tin liên kết |
+| Chi | Recursive | 8 | Độ chính xác cao | Mất thông tin liên kết |
 | Nghĩa | Keyword chunk | 7.0 | Tốc độ nhanh | Cắt vụn thông tin |
 
 **Strategy nào tốt nhất cho domain này? Tại sao?**
